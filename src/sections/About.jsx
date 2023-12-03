@@ -15,7 +15,6 @@ import pic from "../assets/myPic.jpg";
 export default function About() {
   return (
     <Box
-      // border="2px solid black"
       height={{ base: "auto", md: "500px", lg: "500px" }}
       width="100%"
       p="4"
@@ -35,7 +34,6 @@ export default function About() {
         <Box
           borderRadius="50%"
           overflow="hidden"
-          boxShadow="md"
           border="1px"
           color="black"
           mb={{ base: "4", md: "0" }}
