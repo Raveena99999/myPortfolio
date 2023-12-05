@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import myresume from '../assets/Raveena-Banduni-Resume.pdf'
+import myresume from "../assets/Raveena-Banduni-Resume.pdf";
 import "./Navbar.css";
 import {
   Breadcrumb,
@@ -59,7 +59,6 @@ export default function Navbar() {
     );
   };
 
-
   return (
     <div>
       <Flex
@@ -77,12 +76,11 @@ export default function Navbar() {
         align="center"
         pr="5vw"
         pl="5"
-        zIndex="1000" 
-
+        zIndex="1000"
       >
         <Box>
           <Image
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELjyBwiLv2xMxNWR1Goi0Q_VvCLs042EqPQ&usqp=CAU"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELjyBwiLv2xMxNWR1Goi0Q_VvCLs042EqPQ&usqp=CAU"
             w={{ base: "12vw", md: "5vw", lg: "4vw" }}
             h={{ base: "7vh", md: "8vh", lg: "8vh" }}
           />
@@ -157,7 +155,11 @@ export default function Navbar() {
                 href="#"
                 color="white"
                 textDecoration="none"
-                _hover={{ backgroundColor: "purple", color:"black", borderRadius: "20px" }}
+                _hover={{
+                  backgroundColor: "purple",
+                  color: "black",
+                  borderRadius: "20px",
+                }}
                 onClick={() => scrollToSection(homeRef)}
               >
                 Home
@@ -169,7 +171,11 @@ export default function Navbar() {
                 href="#about"
                 textDecoration="none"
                 color="white"
-                _hover={{ backgroundColor: "purple", color:"black", borderRadius: "20px" }}
+                _hover={{
+                  backgroundColor: "purple",
+                  color: "black",
+                  borderRadius: "20px",
+                }}
                 onClick={() => scrollToSection(aboutRef)}
               >
                 About
@@ -181,20 +187,27 @@ export default function Navbar() {
                 href="#skills"
                 textDecoration="none"
                 color="white"
-                _hover={{ backgroundColor: "purple", color:"black", borderRadius: "20px" }}
+                _hover={{
+                  backgroundColor: "purple",
+                  color: "black",
+                  borderRadius: "20px",
+                }}
                 onClick={() => scrollToSection(skillsRef)}
               >
                 Skills
               </BreadcrumbLink>
             </BreadcrumbItem>
-             
 
             <BreadcrumbItem>
               <BreadcrumbLink
                 href="#projects"
                 textDecoration="none"
                 color="white"
-                _hover={{ backgroundColor: "purple", color:"black", borderRadius: "20px" }}
+                _hover={{
+                  backgroundColor: "purple",
+                  color: "black",
+                  borderRadius: "20px",
+                }}
                 onClick={() => scrollToSection(projectsRef)}
               >
                 Projects
@@ -206,7 +219,11 @@ export default function Navbar() {
                 href="#experience"
                 color="white"
                 textDecoration="none"
-                _hover={{ backgroundColor: "purple", color:"black", borderRadius: "20px" }}
+                _hover={{
+                  backgroundColor: "purple",
+                  color: "black",
+                  borderRadius: "20px",
+                }}
                 onClick={() => scrollToSection(experienceRef)}
               >
                 Experience
@@ -218,47 +235,31 @@ export default function Navbar() {
                 href="#contact"
                 color="white"
                 textDecoration="none"
-                _hover={{ backgroundColor: "purple", color:"black", borderRadius: "20px" }}
+                _hover={{
+                  backgroundColor: "purple",
+                  color: "black",
+                  borderRadius: "20px",
+                }}
                 onClick={() => scrollToSection(contactRef)}
               >
                 Contact
               </BreadcrumbLink>
             </BreadcrumbItem>
 
-            {/* <BreadcrumbItem>
+            <BreadcrumbItem className="heartbeat">
               <BreadcrumbLink
-                href="#resume"
-                textDecoration="none"
-                color="green"
-                _hover={{ backgroundColor: "white", borderRadius: "20px" }}
+                href={myresume}
+                download={myresume}
+                onClick={openResume}
+                color="white"
+                _hover={{
+                  backgroundColor: "purple",
+                  color: "black",
+                  borderRadius: "20px",
+                }}
               >
                 Resume
               </BreadcrumbLink>
-            </BreadcrumbItem> */}
-
-            <BreadcrumbItem className="heartbeat">
-            
-               <BreadcrumbLink   href={myresume}
-                download={myresume}
-                onClick={openResume} 
-                color="white"
-                _hover={{ backgroundColor: "purple", color:"black", borderRadius: "20px" }}
-
-                >
-               
-                {/* style={{
-                  color: "white",
-                  textDecoration: "none",
-                  display: "flex",
-                  alignItems: "center",
-                  _hover: {
-                    backgroundColor: "green",
-                    borderRadius: "20px",
-                  },
-                }} */}
-              
-                Resume
-                </BreadcrumbLink>
             </BreadcrumbItem>
           </Breadcrumb>
         )}
