@@ -89,6 +89,7 @@ export default function Navbar() {
         {isMobile ? (
           <>
             <Button
+            mr="5vw"
               ref={btnRef}
               color="black"
               bg="purple"
