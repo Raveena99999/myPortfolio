@@ -63,7 +63,7 @@ export default function Skills() {
         <Box 
 
         // border="2px"
-         h="120vh" w="90%" mt="8vh">
+         h="120vh" w="100%" mt="8vh">
           <Heading textAlign="center" color="purple" mb="10vh"
                     // mr={{base:"35vh" ,md:"0vh" ,lg:"0vh"}}
 
@@ -75,6 +75,7 @@ export default function Skills() {
             mt="5vh"
             ml="12vh"
             justify="space-evenly"
+            align="center"
           >
             {imageUrls.map((url, index) => (
               <GridItem
@@ -107,7 +108,7 @@ export default function Skills() {
 
         <Box
         //  border="2px"
-         h="120vh" w="90%" mt="8vh">
+         h="120vh" w="100%" mt="8vh">
           <Heading textAlign="center" color="purple" mb="10vh" 
           // mr={{base:"35vh" ,md:"0vh" ,lg:"0vh"}}
           >Tools</Heading>
