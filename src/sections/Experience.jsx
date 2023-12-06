@@ -12,7 +12,7 @@ export default function Experience() {
       <Box
       
       boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
-      w={{base:"50vh",md:"100vh" ,lg:"120vh"}}
+      w={{base:"80%",md:"100%" ,lg:"120vh"}}
       h={{base:"80vh",md:"60vh" ,lg:"50vh"}}
         mt="10vh" 
          mx="auto" border="2px" className='shake-horizontal' borderRadius="35px">

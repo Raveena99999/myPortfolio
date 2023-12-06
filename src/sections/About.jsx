@@ -15,8 +15,10 @@ import pic from "../assets/myPic.jpg";
 export default function About() {
   return (
     <Box
-      height={{ base: "auto", md: "500px", lg: "500px" }}
+      height={{ base: "auto", md: "550px", lg: "500px" }}
       width="100%"
+      // w={{base:"100%" ,md:"150%",lg:"100%"}}
+
       p="4"
     >
       <Heading textAlign="center" mt="5vh">

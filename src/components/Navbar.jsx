@@ -64,11 +64,11 @@ export default function Navbar() {
   return (
     <>
       <Flex
+
         position="fixed"
         top={0}
         bg="black"
         w="100%"
-        // w={{base:"62%",md:"100%",lg:"100%"}}
         justify={{
           base: "space-between",
           md: "space-around",
@@ -99,7 +99,6 @@ export default function Navbar() {
               onClick={onOpen}
               _hover={{ backgroundColor: "lightPink" }}
               mr="5vw"
-              // mr={{ base: "0px", md: "20px" }} 
             >
               <HamburgerIcon />
             </Button>
@@ -160,6 +159,7 @@ export default function Navbar() {
             fontSize={18}
             fontWeight="bold"
             spacing="2vw"
+            // spacing={{base:"1vw",md:"1vw",lg:"2vw"}}
             separator=""
           >
             <BreadcrumbItem>

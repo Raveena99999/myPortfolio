@@ -39,6 +39,8 @@ export default function Home() {
       backgroundColor="rgba(0, 0, 0, 0.5)"
       padding="8px 16px"
       borderRadius="4px"
+      w={{base:"100%" ,md:"100%",lg:"100%"}}
+
     >
       {imageUrls.map((url, index) => (
         <Box

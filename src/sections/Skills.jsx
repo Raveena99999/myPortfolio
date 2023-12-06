@@ -48,7 +48,7 @@ export default function Skills() {
 
 
   return (
-    <div
+    <Box
       style={{
         border: "2px solid black",
         height: "auto",
@@ -70,7 +70,7 @@ export default function Skills() {
           >Frontened</Heading>
 
           <Grid
-            templateColumns={{ base: "1fr", md: "repeat(2, 1fr)" }}
+            templateColumns={{ base: "1fr", md: "repeat(1, 1fr)" ,lg:"repeat(2,1fr)" }}
             gap={9}
             mt="5vh"
             ml="12vh"
@@ -113,7 +113,7 @@ export default function Skills() {
           // mr={{base:"35vh" ,md:"0vh" ,lg:"0vh"}}
           >Tools</Heading>
           <Grid 
-          templateColumns={{ base: "1fr", md: "repeat(2, 1fr)" }}
+          templateColumns={{ base: "1fr", md: "repeat(1, 1fr)",lg:"repeat(2,1fr)" }}
            gap={9} mt="5vh" ml="12vh">
             {anotherImageUrls.map((url, index) => (
               <GridItem
@@ -134,7 +134,7 @@ export default function Skills() {
 
                 />
 
-<Text textAlign="center" color="white" mt="2vh">
+<Text textAlign="center" color="white" mt="vh">
                 {toolsText[index]}
               </Text>
               </GridItem>
@@ -142,9 +142,10 @@ export default function Skills() {
           </Grid>
         </Box>
       </Flex>
-
+      <Box mt={{base:"-15vh",md:"50vh",lg:"0"}}>
       <Heading textAlign="center" color="purple" mt="8vh"> Github Contribution</Heading>
-      <Box ml="25vw" w={{ base: "50%", md: "50%", lg: "80%" }}  mt="5vh">
+      <Box ml="25vw" w={{ base: "50%", md: "50%", lg: "80%" }}  mt="2vh" >
+
         <GitHubCalendar
           className="react-activity-calendar"
           color="skyblue"
@@ -175,8 +176,8 @@ export default function Skills() {
           alt=""
         />
       </Box>
+      </Box>
 
-
-    </div>
+    </Box>
   );
 }

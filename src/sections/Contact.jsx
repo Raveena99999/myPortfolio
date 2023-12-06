@@ -44,7 +44,7 @@ export default function Contact() {
   const { hasCopied, onCopy } = useClipboard('raveenabanduni06@gmail.com')
 
   return (
-   <div style={{height:"80vh"}}>
+   <div style={{height:"auto"}}>
     <Flex
       bg={useColorModeValue('gray.100', 'gray.900')}
       align="center"
