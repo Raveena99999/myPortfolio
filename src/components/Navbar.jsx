@@ -55,7 +55,8 @@ export default function Navbar() {
   };
   const openResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1Us-HGI_VAX5_OJHuarkuQL7o73v1-r53/view?usp=drive_link",
+      // "https://drive.google.com/file/d/1Us-HGI_VAX5_OJHuarkuQL7o73v1-r53/view?usp=drive_link",
+      "https://drive.google.com/file/d/1Us-HGI_VAX5_OJHuarkuQL7o73v1-r53/view?usp=sharing",
       "_blank"
     );
   };
@@ -67,7 +68,7 @@ export default function Navbar() {
         top={0}
         bg="black"
         w="100%"
-        // w={{base:"80%",md:"100%",lg:"100%"}}
+        // w={{base:"62%",md:"100%",lg:"100%"}}
         justify={{
           base: "space-between",
           md: "space-around",
@@ -97,7 +98,8 @@ export default function Navbar() {
               bg="purple"
               onClick={onOpen}
               _hover={{ backgroundColor: "lightPink" }}
-              mr="60vw"
+              // mr="60vw"
+              // mr={{ base: "0px", md: "20px" }} 
             >
               <HamburgerIcon />
             </Button>
