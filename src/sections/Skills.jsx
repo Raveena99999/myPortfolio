@@ -63,9 +63,9 @@ export default function Skills() {
         <Box 
 
         // border="2px"
-         h="120vh" w="90vh" mt="8vh">
+         h="120vh" w="90%" mt="8vh">
           <Heading textAlign="center" color="purple" mb="10vh"
-                    mr={{base:"35vh" ,md:"0vh" ,lg:"0vh"}}
+                    // mr={{base:"35vh" ,md:"0vh" ,lg:"0vh"}}
 
           >Frontened</Heading>
 
@@ -107,9 +107,9 @@ export default function Skills() {
 
         <Box
         //  border="2px"
-         h="120vh" w="90vh" mt="8vh">
+         h="120vh" w="90%" mt="8vh">
           <Heading textAlign="center" color="purple" mb="10vh" 
-          mr={{base:"35vh" ,md:"0vh" ,lg:"0vh"}}
+          // mr={{base:"35vh" ,md:"0vh" ,lg:"0vh"}}
           >Tools</Heading>
           <Grid 
           templateColumns={{ base: "1fr", md: "repeat(2, 1fr)" }}

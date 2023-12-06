@@ -62,7 +62,7 @@ export default function Navbar() {
   };
 
   return (
-    <div>
+    <>
       <Flex
         position="fixed"
         top={0}
@@ -78,7 +78,7 @@ export default function Navbar() {
         border="2px solid black"
         align="center"
         pr="5vw"
-        pl="5"
+        pl="5vw"
         zIndex="1000"
       >
         <Box>
@@ -98,7 +98,7 @@ export default function Navbar() {
               bg="purple"
               onClick={onOpen}
               _hover={{ backgroundColor: "lightPink" }}
-              // mr="60vw"
+              mr="5vw"
               // mr={{ base: "0px", md: "20px" }} 
             >
               <HamburgerIcon />
@@ -295,6 +295,9 @@ export default function Navbar() {
       <div ref={contactRef}>
         <Contact />
       </div>
-    </div>
+    </>
   );
 }
+
+
+
