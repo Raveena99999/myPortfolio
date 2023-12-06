@@ -21,6 +21,7 @@ import {
   useBreakpointValue,
   useDisclosure,
   Image,
+  Link,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import Home from "../sections/Home";
@@ -29,7 +30,7 @@ import Skills from "../sections/Skills";
 import Projects from "../sections/Projects";
 import Experience from "../sections/Experience";
 import Contact from "../sections/Contact";
-
+import Resume from "../sections/Resume"
 export default function Navbar() {
   const isMobile = useBreakpointValue({
     base: true,
@@ -66,6 +67,7 @@ export default function Navbar() {
         top={0}
         bg="black"
         w="100%"
+        // w={{base:"80%",md:"100%",lg:"100%"}}
         justify={{
           base: "space-between",
           md: "space-around",
@@ -89,12 +91,13 @@ export default function Navbar() {
         {isMobile ? (
           <>
             <Button
-            mr="5vw"
+          
               ref={btnRef}
               color="black"
               bg="purple"
               onClick={onOpen}
               _hover={{ backgroundColor: "lightPink" }}
+              mr="60vw"
             >
               <HamburgerIcon />
             </Button>
@@ -137,6 +140,12 @@ export default function Navbar() {
                     </Button>
                     <Button w="80%" onClick={() => scrollToSection(contactRef)}>
                       Contact
+                    </Button>
+
+                    <Button w="80%">
+                  <Link  href={myresume}
+                download={myresume}
+                onClick={openResume}>Resume</Link>
                     </Button>
                   </VStack>
                 </DrawerBody>

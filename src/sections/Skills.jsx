@@ -56,13 +56,13 @@ export default function Skills() {
         backgroundColor: "black",
       }}
     >
-      <Heading textAlign="center" mt="10vh" color="purple">Tech Skills</Heading>
+      <Heading textAlign="center" mt="10vh" color="white" >Tech Skills</Heading>
       <Flex justify="space-evenly" mt="5vh"
       direction={{base:"column",md:"row",lg:"row"}} 
       >
         <Box 
 
-        border="2px"
+        // border="2px"
          h="120vh" w="90vh" mt="8vh">
           <Heading textAlign="center" color="purple" mb="10vh"
                     mr={{base:"35vh" ,md:"0vh" ,lg:"0vh"}}
@@ -106,7 +106,7 @@ export default function Skills() {
         </Box>
 
         <Box
-         border="2px"
+        //  border="2px"
          h="120vh" w="90vh" mt="8vh">
           <Heading textAlign="center" color="purple" mb="10vh" 
           mr={{base:"35vh" ,md:"0vh" ,lg:"0vh"}}
