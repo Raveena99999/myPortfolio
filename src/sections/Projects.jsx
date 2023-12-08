@@ -20,7 +20,7 @@ const cardStyles = {
 export default function Projects() {
   return (
     <div style={{  width: "100%", padding: "20px" }}>
-      <Heading textAlign="center" mt="5vh"mb="8vh" >Projects</Heading>
+      <Heading textAlign="center" mt="5vh"mb="8vh" color="rgba(147, 112, 219, 1)" >Projects</Heading>
 
       <Flex w="80%" mx="auto" justify="space-around" mt="4" flexWrap="wrap" >
         <Box p="4"
@@ -42,12 +42,12 @@ export default function Projects() {
               href="https://649c13a67142170a3daa5e24--cute-crumble-bdd1df.netlify.app/"
               target="_blank"
               style={{
-                border: "1px solid black",
+                // border: "1px solid black",
                 width: "25%",
                 textAlign: "center",
                 fontSize: "xl",
                 fontWeight: "bold",
-                backgroundColor:"black",
+                backgroundColor:"purple",
                 color:"white",
                 borderRadius:"2vh"
 
@@ -59,13 +59,13 @@ export default function Projects() {
               href="https://github.com/Raveena99999/superheroResume"
               target="_blank"
               style={{
-                border: "1px solid black",
+                // border: "1px solid black",
                 width: "25%",
                 textAlign: "center",
                 fontSize: "xl",
                 fontWeight: "bold",
                 mt: "2",
-                backgroundColor:"black",
+                backgroundColor:"purple",
                 color:"white" ,
                 borderRadius:"2vh" 
                           }}
@@ -94,12 +94,12 @@ export default function Projects() {
               href="https://site-indigo.netlify.app/"
               target="_blank"
               style={{
-                border: "1px solid black",
+                // border: "1px solid black",
                 width: "25%",
                 textAlign: "center",
                 fontSize: "xl",
                 fontWeight: "bold",
-                backgroundColor:"black",
+                backgroundColor:"purple",
                 color:"white",
                 borderRadius:"2vh" 
 
@@ -111,13 +111,13 @@ export default function Projects() {
               href="https://github.com/Raveena99999/IndiegogoProject/tree/main/Project-Indiegogo"
               target="_blank"
               style={{
-                border: "1px solid black",
+                // border: "1px solid black",
                 width: "25%",
                 textAlign: "center",
                 fontSize: "xl",
                 fontWeight: "bold",
                 mt: "2",
-                backgroundColor:"black",
+                backgroundColor:"purple",
                 color:"white",
                 borderRadius:"2vh" 
 

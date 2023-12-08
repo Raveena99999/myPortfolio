@@ -73,7 +73,7 @@ export default function Home() {
         transform="translatey(-50%)"
 
         fontSize="7vh"
-        color="purple"
+        color="rgba(147, 112, 219, 1)"
       >
         {textToShow}
       </Text>
@@ -83,7 +83,6 @@ export default function Home() {
         fontFamily="Poppins"
         pos="relative"
         mt="15vh"
-       
       >
         <Type strings={typingStrings}         
         

@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import myresume from "../assets/Raveena-Banduni-Resume.pdf";
+// import myresume from "../assets/Raveena-Banduni-Resume.pdf";
 import "./Navbar.css";
 import {
   Breadcrumb,
@@ -55,7 +55,6 @@ export default function Navbar() {
   };
   const openResume = () => {
     window.open(
-      // "https://drive.google.com/file/d/1Us-HGI_VAX5_OJHuarkuQL7o73v1-r53/view?usp=drive_link",
       "https://drive.google.com/file/d/1Us-HGI_VAX5_OJHuarkuQL7o73v1-r53/view?usp=sharing",
       "_blank"
     );
@@ -67,7 +66,7 @@ export default function Navbar() {
 
         position="fixed"
         top={0}
-        bg="black"
+        bg="purple"
         w="100%"
         justify={{
           base: "space-between",
@@ -75,11 +74,12 @@ export default function Navbar() {
           lg: "space-around",
         }}
         h="12vh"
-        border="2px solid black"
+        // border="2px solid black"
         align="center"
         pr="5vw"
         pl="5vw"
         zIndex="1000"
+        
       >
         <Box>
           <Image
@@ -144,8 +144,8 @@ export default function Navbar() {
                     </Button>
 
                     <Button w="80%">
-                  <Link  href={myresume}
-                download={myresume}
+                  <Link  href="Resume-Banduni-Resume.pdf"
+                download="Resume-Banduni-Resume.pdf"
                 onClick={openResume}>Resume</Link>
                     </Button>
                   </VStack>
@@ -165,7 +165,7 @@ export default function Navbar() {
             <BreadcrumbItem>
               <BreadcrumbLink
                 href="#"
-                color="white"
+                color="rgba(147, 112, 219, 1)"
                 textDecoration="none"
                 _hover={{
                   backgroundColor: "purple",
@@ -182,7 +182,7 @@ export default function Navbar() {
               <BreadcrumbLink
                 href="#about"
                 textDecoration="none"
-                color="white"
+                color="rgba(147, 112, 219, 1)"
                 _hover={{
                   backgroundColor: "purple",
                   color: "black",
@@ -198,7 +198,7 @@ export default function Navbar() {
               <BreadcrumbLink
                 href="#skills"
                 textDecoration="none"
-                color="white"
+                color="rgba(147, 112, 219, 1)"
                 _hover={{
                   backgroundColor: "purple",
                   color: "black",
@@ -214,7 +214,7 @@ export default function Navbar() {
               <BreadcrumbLink
                 href="#projects"
                 textDecoration="none"
-                color="white"
+                color="rgba(147, 112, 219, 1)"
                 _hover={{
                   backgroundColor: "purple",
                   color: "black",
@@ -229,7 +229,7 @@ export default function Navbar() {
             <BreadcrumbItem>
               <BreadcrumbLink
                 href="#experience"
-                color="white"
+                color="rgba(147, 112, 219, 1)"
                 textDecoration="none"
                 _hover={{
                   backgroundColor: "purple",
@@ -245,7 +245,7 @@ export default function Navbar() {
             <BreadcrumbItem>
               <BreadcrumbLink
                 href="#contact"
-                color="white"
+                color="rgba(147, 112, 219, 1)"
                 textDecoration="none"
                 _hover={{
                   backgroundColor: "purple",
@@ -259,11 +259,11 @@ export default function Navbar() {
             </BreadcrumbItem>
 
             <BreadcrumbItem className="heartbeat">
-              <BreadcrumbLink
-                href={myresume}
-                download={myresume}
+              <BreadcrumbLink 
+                href="Raveena-Banduni-Resume.pdf"
+                download="Raveena-Banduni-Resume.pdf"
                 onClick={openResume}
-                color="white"
+                color="rgba(147, 112, 219, 1)"
                 _hover={{
                   backgroundColor: "purple",
                   color: "black",

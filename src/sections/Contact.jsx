@@ -81,7 +81,7 @@ export default function Contact() {
                   label={hasCopied ? 'Email Copied!' : 'Copy Email'}
                   closeOnClick={false}
                   hasArrow>
-                    <Flex align="center" w="45vh" border="2px">
+                    <Flex align="center" w="45vh" border="3px solid "         color="rgba(147, 112, 219, 1)">
                   <IconButton
                     aria-label="email"
                     variant="ghost"
@@ -95,11 +95,11 @@ export default function Contact() {
                     onClick={onCopy}
                     isRound
                   />
-                  <Text>raveenabanduni06@gmail.com</Text>
+                  <Text  color="purple">raveenabanduni06@gmail.com</Text>
                   </Flex>
                 </Tooltip>
 
-<Flex align="center" w="45vh" border="2px">
+<Flex align="center" w="45vh" border="3px solid "         color="rgba(147, 112, 219, 1)">
                 <Box as="a" href="https://github.com/Raveena99999" target="_blank" >
                   <IconButton
                     aria-label="github"
@@ -114,10 +114,11 @@ export default function Contact() {
                     isRound
                   />
                 </Box>
-                <Link href="https://github.com/Raveena99999" target="_blank">Raveena99999</Link>
+                <Link href="https://github.com/Raveena99999" target="_blank" color="purple">Raveena99999</Link>
                 </Flex>
 
-<Flex align="center" w="45vh" border="2px">
+<Flex align="center" w="45vh" border="3px solid "         color="rgba(147, 112, 219, 1)"
+>
                 <Box as="a" href="#">
                   <IconButton
                     aria-label="phone"
@@ -131,10 +132,10 @@ export default function Contact() {
                     isRound
                   />
                    </Box>
-                  <Text>7060875293</Text>
+                  <Text color="purple">7060875293</Text>
                
                 </Flex> 
-<Flex align="center" w="45vh" border="2px">
+<Flex align="center" w="45vh" border="3px solid "         color="rgba(147, 112, 219, 1)">
                 <Box as="a" href="https://www.linkedin.com/in/raveena-banduni-6290a7248/" target="_blank">
                   <IconButton
                     aria-label="linkedin"
@@ -148,7 +149,7 @@ export default function Contact() {
                     isRound
                   />
                 </Box>
-                <Link href="https://www.linkedin.com/in/raveena-banduni-6290a7248/" target="_blank">Raveena Banduni</Link>
+                <Link color="purple" href="https://www.linkedin.com/in/raveena-banduni-6290a7248/" target="_blank">Raveena Banduni</Link>
                 </Flex>
               </Stack>
 

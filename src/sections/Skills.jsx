@@ -50,18 +50,21 @@ export default function Skills() {
   return (
     <Box
       style={{
-        border: "2px solid black",
+        // border: "2px solid black",
         height: "auto",
         width: "100%",
-        backgroundColor: "black",
+        // backgroundColor: "rgba(147, 112, 219, 1)"
+        
       }}
     >
-      <Heading textAlign="center" mt="10vh" color="white" >Tech Skills</Heading>
-      <Flex justify="space-evenly" mt="5vh"
+      <Box bg="rgba(147, 112, 219, 1)"  border="2px solid white" h={{md:"180vh",lg:"auto"}} >
+      <Heading textAlign="center"  color="" >Tech Skills</Heading>
+      <Flex justify="space-evenly" mt="5vh" 
       direction={{base:"column",md:"row",lg:"row"}} 
       >
         <Box 
-
+    //  bg=        "rgba(147, 112, 219, 1)"
+     
         // border="2px"
          h="120vh" w="100%" mt="8vh">
           <Heading textAlign="center" color="purple" mb="10vh"
@@ -108,17 +111,23 @@ export default function Skills() {
 
         <Box
         //  border="2px"
-         h="120vh" w="100%" mt="8vh">
+        // bg=        "rgba(147, 112, 219, 1)"
+
+         h="auto" w="100%" mt="8vh">
           <Heading textAlign="center" color="purple" mb="10vh" 
           // mr={{base:"35vh" ,md:"0vh" ,lg:"0vh"}}
           >Tools</Heading>
           <Grid 
           templateColumns={{ base: "1fr", md: "repeat(1, 1fr)",lg:"repeat(2,1fr)" }}
-           gap={9} mt="5vh" ml="12vh">
+           gap={9} mt="5vh"
+            ml="12vh" 
+            >
             {anotherImageUrls.map((url, index) => (
               <GridItem
                 key={index}
-                w="25vh"
+                w={{base:"100%",md:"100%",lg:"25vh"}}
+
+                // w="25vh"
                 h="25vh"
                 justify="space-evenly"
 
@@ -126,9 +135,10 @@ export default function Skills() {
                 <Image
                   src={url}
                   alt={`Image ${index + 1}`}
-                  w="100%"
+                  // w="100%"
                   objectFit="cover"
                   className="wobble-hor-bottom"
+                  w={{base:"25vh",md:"100%",lg:""}}
                   h={{base:"15vh",md:"25vh",lg:"25vh"}}
                   ml={{base:"5vh",md:"-5vh",lg:"0vh"}}
 
@@ -142,7 +152,9 @@ export default function Skills() {
           </Grid>
         </Box>
       </Flex>
-      <Box mt={{base:"-15vh",md:"50vh",lg:"0"}}>
+      </Box>
+
+      <Box mt={{base:"0vh",md:"10vh",lg:"0"}} >
       <Heading textAlign="center" color="purple" mt="8vh"> Github Contribution</Heading>
       <Box ml="25vw" w={{ base: "50%", md: "50%", lg: "80%" }}  mt="2vh" >
 
@@ -168,7 +180,7 @@ export default function Skills() {
         />
       </Box>
       </Flex>
-      <Box w={{ base: "50%", md: "50%", lg: "50%" }} m="auto">
+      <Box w={{ base: "50%", md: "50%", lg: "50%" }} m="auto" bg="black" >
         <img
           id="github-streak-stats"
           width="100%"

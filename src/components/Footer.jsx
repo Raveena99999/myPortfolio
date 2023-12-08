@@ -7,6 +7,7 @@ export default function Footer() {
       style={{
         border: "2px solid white",
         height: "12vh",
+        // width:"100%",
         backgroundColor: "lightGray",
       }}
     >
