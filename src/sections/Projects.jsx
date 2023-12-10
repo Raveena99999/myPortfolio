@@ -1,6 +1,7 @@
 import { Flex, Heading, Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import pic2 from "../assets/superHeroResume.png";
+// import pic2 from "../assets/superHeroResume.png";
+import pic1 from "../assets/super.png"
 import pic3 from "../assets/indieGogo.png";
 import "./Project.css";
 
@@ -29,7 +30,7 @@ export default function Projects() {
 
       <Flex w="80%" mx="auto" justify="space-around" mt="4" flexWrap="wrap">
         <Box p="4" {...cardStyles} className="color-change-2x ">
-          <Image src={pic2} alt="my image" w="100%" h="280px" />
+          <Image src={pic1} alt="my image" w="100%" h="280px" />
           <Text textAlign="center" fontWeight="bold" fontSize="xl" mt="3">
             Superhero Resume
           </Text>
@@ -43,7 +44,7 @@ export default function Projects() {
           </Text>
           <Flex justify="space-around" mt="6" flexWrap="wrap">
             <a
-              href="https://649c13a67142170a3daa5e24--cute-crumble-bdd1df.netlify.app/"
+              href="https://657562e1b3088f6e1d5fe110--delightful-pony-8406df.netlify.app/"
               target="_blank"
               style={{
                 width: "25%",
