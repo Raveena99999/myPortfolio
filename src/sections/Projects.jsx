@@ -44,7 +44,7 @@ export default function Projects() {
           </Text>
           <Flex justify="space-around" mt="6" flexWrap="wrap">
             <a
-              href="https://657562e1b3088f6e1d5fe110--delightful-pony-8406df.netlify.app/"
+              href="https://657588ccce77750b3fdb563b--aesthetic-queijadas-32812e.netlify.app//"
               target="_blank"
               style={{
                 width: "25%",
