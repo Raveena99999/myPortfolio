@@ -58,6 +58,7 @@ export default function Home() {
           height="100%"
         >
           <Image
+            objectFit="cover"
             src={url}
             alt={`Image ${index + 1}`}
             width="100%"

@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-// import myresume from "../assets/Raveena-Banduni-Resume.pdf";
 import "./Navbar.css";
 import {
   Breadcrumb,
@@ -74,7 +73,6 @@ export default function Navbar() {
           lg: "space-around",
         }}
         h="12vh"
-        // border="2px solid black"
         align="center"
         pr="5vw"
         pl="5vw"
@@ -84,8 +82,8 @@ export default function Navbar() {
         <Box>
           <Image
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELjyBwiLv2xMxNWR1Goi0Q_VvCLs042EqPQ&usqp=CAU"
-            w={{ base: "12vw", md: "5vw", lg: "4vw" }}
-            h={{ base: "7vh", md: "8vh", lg: "8vh" }}
+            w={{ base: "12vw", md: "5vw", lg: "4vw" ,xl:"4vw" }}
+            h={{ base: "7vh", md: "8vh", lg: "8vh",xl: "8vh" }}
           />
         </Box>
 
@@ -159,7 +157,6 @@ export default function Navbar() {
             fontSize={18}
             fontWeight="bold"
             spacing="2vw"
-            // spacing={{base:"1vw",md:"1vw",lg:"2vw"}}
             separator=""
           >
             <BreadcrumbItem>

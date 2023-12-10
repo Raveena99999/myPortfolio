@@ -15,10 +15,8 @@ import pic from "../assets/myProfile.jpg";
 export default function About() {
   return (
     <Box
-      height={{ base: "auto", md: "550px", lg: "500px" }}
+      height={{ base: "auto", md: "auto", lg: "auto", xl: "auto" }}
       width="100%"
-      // w={{base:"100%" ,md:"150%",lg:"100%"}}
-
       p="4"
     >
       <Heading textAlign="center" mt="5vh">
@@ -36,13 +34,12 @@ export default function About() {
         <Box
           borderRadius="50%"
           overflow="hidden"
-          // border="1px"
           color="black"
           mb={{ base: "4", md: "0" }}
           mt={{ lg: "-30px" }}
           boxShadow="rgba(0, 0, 0, 0.1) 0px 10px 50px"
         >
-          <Image src={pic} alt="my image" w="280px" h="310px"  />
+          <Image src={pic} alt="my image" w="280px" h="310px" />
         </Box>
         <Box>
           <Container w={{ base: "100%", md: "60vh", lg: "80vh" }}>
@@ -105,7 +102,7 @@ export default function About() {
                 borderRadius="1vh"
                 fontSize="18px"
                 color="blue"
-                _hover={{ textDecoration: "none",color:"black"  }}
+                _hover={{ textDecoration: "none", color: "black" }}
               >
                 Linkedin
               </Link>
@@ -121,9 +118,8 @@ export default function About() {
                 target="blank"
                 borderRadius="1vh"
                 fontSize="18px"
-                _hover={{ textDecoration: "none",color:"black" }}
+                _hover={{ textDecoration: "none", color: "black" }}
                 color="purple"
-
               >
                 My Resume
               </Link>

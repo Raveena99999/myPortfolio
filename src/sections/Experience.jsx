@@ -5,15 +5,15 @@ export default function Experience() {
   const boldStyle = { fontWeight: 'bold', color: 'purple' ,fontSize:"18px" }; 
 
   return (
-    <div style={{  width: '100%', height:"auto", backgroundColor:"" }} >
+    <div style={{  width: '90%', margin:"auto", height:"auto", backgroundColor:"" }}
+     >
       <Heading textAlign="center" mt="7vh">
         Experience
       </Heading>
       <Box
-      
+      pb="3vh"
       boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
-      w={{base:"80%",md:"100%" ,lg:"120vh"}}
-      // h={{base:"80vh",md:"60vh" ,lg:"50vh"}}
+      w={{base:"80%",md:"100%" ,lg:"100%"}}
       h="auto"
         mt="10vh" 
          mx="auto" border="2px" className='shake-horizontal' borderRadius="35px">
