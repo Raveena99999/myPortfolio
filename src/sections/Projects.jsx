@@ -106,7 +106,7 @@ export default function Projects() {
               Go Live
             </a>
             <a
-              href="https://github.com/Raveena99999/IndiegogoProject/tree/main/Project-Indiegogo"
+              href="https://github.com/Raveena99999/IndiegogoProject/tree/main"
               target="_blank"
               style={{
                 width: "25%",
