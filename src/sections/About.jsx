@@ -113,7 +113,7 @@ export default function About() {
               border="2px"
             >
               <Link
-                href="https://drive.google.com/file/d/14CPJL2P9blgEwAOL1ynO3g1TLHmNX9Wg/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Bbg5zIBOvFr4AD6aalCvKV9qK31GUQ69/view?usp=sharing"
                 download="Raveena-Banduni-pdf"
                 target="blank"
                 borderRadius="1vh"
