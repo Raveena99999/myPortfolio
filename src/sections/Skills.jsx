@@ -20,17 +20,25 @@ export default function Skills() {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Nouv2ELZ51yZUiguCW6mw0EFrQYTebbAmg&usqp=CAU",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-UgpOv6DIROvYZyytFfZlViGfNPlFzozqbw&usqp=CAU",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWtd0SJ0g8MXgVkMGYzIExzYveuMJCQ4Zffg&usqp=CAU",
+   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi3riH1jgH8Pi1LdvCam3PnpFu4ANeFexthg&usqp=CAU",
+   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW9agl9w7zdw7Zyp2-zCIA6SzUdqzEHfNR4Q&usqp=CAU",
+   "https://miro.medium.com/v2/resize:fit:802/1*la1gjtBYa-zYEUlDHJwvtw.png",
+   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVyvp1FOzLo9wO7eWAMnIt9N2tEq1aYSvbpg&usqp=CAU",
+    
   ];
 
   const anotherImageUrls = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMptjo8yBc3oV6LavqNnWoF4K4c6g2pfjcg&usqp=CAU",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREknA6QiQtX1p7lxA6GlcuaiNtApJvA9Bxaw&usqp=CAU",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXhMAPnzsnAA3AEdlQABcGlkdwt8NHJ0pqOg&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTTNIvGUACqu429-SH8OiIiosMuYt5x5gvb8Y8mIOsHI_k24Yvsm4-urWJ8Q&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkg7u-x-FzXf0HiZZ-GWG6SYOTIJ8tMvkTsteV3Z5DpE3TWmE2EaXv7WOwXw&s"
+    ,
   ];
 
-  const frontendText = ["HTML", "CSS", "JavaScript", "React JS", "Chakra UI"];
+  const frontendText = ["HTML", "CSS", "JavaScript", "React JS", "Chakra UI","Node JS","Express","mongoDB","Redux"];
 
-  const toolsText = ["VS Code", "Postman", "Git"];
+  const toolsText = ["VS Code", "Postman", "Git","Replit","CodeSandbox"];
 
   return (
     <Box
@@ -41,7 +49,7 @@ export default function Skills() {
       }}
     >
       <Heading textAlign="center" color="">
-        Tech Skills
+        Tech Skills & Tools
       </Heading>
       <Flex
         justify="space-evenly"
@@ -58,7 +66,7 @@ export default function Skills() {
             }}
             color="purple"
           >
-            Frontened
+            Skills
           </Heading>
 
           <Grid

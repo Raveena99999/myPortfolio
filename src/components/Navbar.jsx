@@ -54,7 +54,7 @@ export default function Navbar() {
   };
   const openResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1Bbg5zIBOvFr4AD6aalCvKV9qK31GUQ69/view?usp=sharing",
+      "https://drive.google.com/file/d/10Rpai91e0cGOkyxpWP-KnMb10BOTfrcT/view?usp=sharing",
       "_blank"
     );
   };
@@ -142,8 +142,8 @@ export default function Navbar() {
                     </Button>
 
                     <Button w="80%">
-                  <Link  href="Raveena-Banduni-Resume.pdf"
-                download="Raveena-Banduni-Resume.pdf"
+                  <Link  href="Raveena-Banduni-fullstackResume.pdf"
+                download="Raveena-Banduni-fullstackResume.pdf"
                 onClick={openResume}>Resume</Link>
                     </Button>
                   </VStack>
@@ -257,8 +257,8 @@ export default function Navbar() {
 
             <BreadcrumbItem className="heartbeat">
               <BreadcrumbLink 
-                href="Raveena-Banduni-Resume.pdf"
-                download="Raveena-Banduni-Resume.pdf"
+                href="Raveena-Banduni-fullstackResume.pdf"
+                download="Raveena-Banduni-fullstackResume.pdf"
                 onClick={openResume}
                 color="rgba(147, 112, 219, 1)"
                 _hover={{

@@ -18,7 +18,7 @@ export default function Footer() {
         fontWeight="bold"
         color="purple"
       >
-        Your vision, our creation. © RAVEENA BANDUNI 2023{" "}
+        Your vision, our creation. © RAVEENA BANDUNI 2024{" "}
       </Text>
     </div>
   );

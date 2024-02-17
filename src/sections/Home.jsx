@@ -10,8 +10,11 @@ const imageUrls = [
 
 const textToShow = "Hi ,I am Raveena Banduni"; 
 const typingStrings = [
-  "Front-end web developer",
+  "Full Stack MERN Developer",
+  "Frontend react developer",
   "Problem Solver",
+  "Transforming Ideas into Digital Realities",
+  "Coding Visionary, Bringing Websites to Life"
 ];
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -56,11 +56,21 @@ export default function About() {
               </Text>{" "}
               <br />
               <Box mt={{ base: "3", md: "3.5vh" }}>
-                As an enthusiastic and adaptable Front End Developer intern,
+                {/* As an enthusiastic and adaptable Front End Developer intern,
                 I've gained expertise in HTML, CSS, JavaScript, and React.
                 Committed to delivering visually appealing and user-friendly
                 interfaces. Continuously learning and adapting to the latest web
-                technologies to enhance user experiences.
+                technologies to enhance user experiences. */}
+                As a passionate Full Stack Developer specializing in the MERN
+                stack, diving into the dynamic realm of web development is
+                second nature. Proficient in MongoDB, Express.js, React.js, and
+                Node.js, crafting innovative solutions that push boundaries is a
+                thrilling endeavor. With a keen eye for detail and a relentless
+                dedication to continuous learning, collaborating on projects
+                that inspire creativity and drive impactful outcomes is the
+                ultimate aspiration. Let's embark on an exhilarating journey
+                together, shaping the future of digital experiences in the world
+                of Full Stack MERN development!
               </Box>
             </Text>
           </Container>
