@@ -123,8 +123,8 @@ export default function About() {
               border="2px"
             >
               <Link
-                href="https://drive.google.com/file/d/1Bbg5zIBOvFr4AD6aalCvKV9qK31GUQ69/view?usp=sharing"
-                download="Raveena-Banduni-pdf"
+                href="https://drive.google.com/file/d/1-QuMeZVoqsqJ5bF3p3wM3Ne2VKQWZ3Cp/view?usp=sharing"
+                download="Raveena-Banduni-MERN-Resume-pdf"
                 target="blank"
                 borderRadius="1vh"
                 fontSize="18px"
